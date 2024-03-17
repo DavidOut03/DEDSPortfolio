@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "week 2"
+version = "0.1.0"
+description = ""
+authors = ["David <71024003+DavidOut03@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.0"
+pyodbc = "^5.1.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
