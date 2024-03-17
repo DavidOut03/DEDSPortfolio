@@ -1,9 +1,10 @@
 [tool.poetry]
-name = "week 2"
+name = "dedsportfolio"
 version = "0.1.0"
 description = ""
-authors = ["David <71024003+DavidOut03@users.noreply.github.com>"]
+authors = ["David <davidoutdeveloper@gmail.com>"]
 readme = "README.md"
+package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.12"
@@ -17,3 +18,4 @@ ipykernel = "^6.29.2"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
